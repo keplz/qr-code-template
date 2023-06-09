@@ -1,0 +1,32 @@
+.container {
+    background-color: var(--white);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5em 1.8em;
+    border-radius: 20px;
+}
+
+.container__qr-code {
+    max-width: 90%;
+    max-height: 90%;
+    width: 300px;
+    height: 300px;
+    margin: 1rem 0;
+    border-radius: 20px;
+}
+
+.container__titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.container__paragrafo {
+    color: var(--grayish-blue);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem;
+}
